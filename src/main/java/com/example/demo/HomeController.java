@@ -70,5 +70,17 @@ public class HomeController {
     public String getCoreJava2(){
         return "coreJava2";
     }
+    @GetMapping ("/htmlCssBoot")
+    public String getHtmlCssBoot(){
+        return "htmlCssBoot";
+    }
+    @GetMapping ("/htmlCssBoot1")
+    public String getHtmlCssBoot1(){
+        return "htmlCssBoot1";
+    }
+    @GetMapping ("/htmlCssBoot2")
+    public String getHtmlCssBoot2(){
+        return "htmlCssBoot2";
+    }
 }
 
