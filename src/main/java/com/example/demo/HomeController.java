@@ -38,10 +38,37 @@ public class HomeController {
     public String getOOP(){
         return "oop";
     }
-    @GetMapping ("programDesignAlg")
+    @GetMapping ("/programDesignAlg")
     public String getProgramDesignAlg(){
         return "programDesignAlg";
     }
-
+    @GetMapping ("/initialGitHubPost")
+    public String getInitialGitHubPost(){
+        return "initialGitHubPost";
+    }
+    @GetMapping ("/gitHubPost2")
+    public String getGitHubPost2(){
+        return "gitHubPost2";
+    }
+    @GetMapping ("/pDA")
+    public String getPDA(){return "pDA";}
+    @GetMapping ("/pDA2")
+    public String getPDA2(){return "pDA2";}
+    @GetMapping ("/oop1")
+    public String getOOP1(){
+        return "oop1";
+    }
+    @GetMapping ("/oop2")
+    public String getOOP2(){
+        return "oop2";
+    }
+    @GetMapping ("/coreJava1")
+    public String getCoreJava1(){
+        return "coreJava1";
+    }
+    @GetMapping ("/coreJava2")
+    public String getCoreJava2(){
+        return "coreJava2";
+    }
 }
 
